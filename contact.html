@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Surya Engineering Works</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Contact Surya Engineering Works in Viralimalai, Tamil Nadu: phone, email, business hours, maps of both units and a quote request form.">
+<meta property="og:title" content="Contact | Surya Engineering Works">
+<meta property="og:description" content="Contact Surya Engineering Works in Viralimalai, Tamil Nadu: phone, email, business hours, maps of both units and a quote request form.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/hero.jpg">
+<meta name="theme-color" content="#1b1c20">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Surya Engineering Works, home">
+      <img src="assets/sew-logo.png" alt="SEW logo" width="74" height="35">
+      <span class="brand-name">Surya Engineering Works<small>Viralimalai · Tamil Nadu · India</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="capabilities.html">Capabilities</a>
+      <a href="machines.html">Machines</a>
+      <a class="btn btn-sun" href="contact.html" aria-current="page">Contact us</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Send us <span class="accent">one drawing</span></h1>
+    <p>Tell us the quantity, material and delivery date. We will quote it with no obligation, and you can inspect a first part before you commit.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="contact-line">
+        <span class="label">Phone</span>
+        <a href="tel:+919600925056">+91 96009 25056</a>
+      </div>
+      <div class="contact-line">
+        <span class="label">Email</span>
+        <a href="mailto:saisuryasu20@gmail.com">saisuryasu20@gmail.com</a>
+      </div>
+      <div class="contact-line">
+        <span class="label">Business hours · India Standard Time</span>
+        <table class="hours">
+          <tbody>
+            <tr data-day="1 2 3 4 5"><td>Monday – Friday</td><td>8:00 AM – 8:00 PM</td></tr>
+            <tr data-day="6"><td>Saturday</td><td>9:00 AM – 7:00 PM</td></tr>
+            <tr data-day="0"><td>Sunday</td><td>9:00 AM – 5:00 PM</td></tr>
+          </tbody>
+        </table>
+        <span class="open-status" data-open-status>Viralimalai, India (IST)</span>
+      </div>
+      <div class="contact-line">
+        <span class="label">Buying from Canada?</span>
+        <p>Our representative in Ontario can handle your quote and order in your time zone. Mention it in your message and we will connect you.</p>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <h2>Request a quote</h2>
+      <p>Fill this in and we will prepare the email for you. Attach your drawing before you send it.</p>
+      <form id="enquiry-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="f-name">Your name *</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <span class="error" data-error-for="f-name" hidden>Please enter your name.</span>
+          </div>
+          <div class="field">
+            <label for="f-company">Company</label>
+            <input id="f-company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="f-email">Email *</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+            <span class="error" data-error-for="f-email" hidden>Please enter a valid email address.</span>
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="f-country">Country</label>
+            <select id="f-country" name="country">
+              <option value="">Select…</option>
+              <option>India</option>
+              <option>Canada</option>
+              <option>United States</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-qty">Quantity</label>
+            <input id="f-qty" name="quantity" type="text" placeholder="e.g. 20 pieces">
+          </div>
+          <div class="field full">
+            <label for="f-part">Part or component</label>
+            <input id="f-part" name="part" type="text" placeholder="e.g. Valve body, 12 inch, WCB">
+          </div>
+          <div class="field full">
+            <label for="f-message">Message *</label>
+            <textarea id="f-message" name="message" required placeholder="Material, delivery date and anything else we should know."></textarea>
+            <span class="error" data-error-for="f-message" hidden>Please add a short message.</span>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-sun" type="submit">Prepare my email</button>
+          <span class="form-hint">Opens in your email app.</span>
+        </div>
+      </form>
+      <div class="form-result" id="form-result" hidden>
+        <strong>Your email app should open with the message ready.</strong> Attach your drawing and press send. If nothing opened, email us directly:
+        <div class="copy-row"><code id="email-text">saisuryasu20@gmail.com</code><button class="btn btn-outline btn-small" type="button" id="copy-email">Copy address</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tinted">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Visit us</p>
+      <h2>Two units in <span class="accent">Viralimalai</span></h2>
+      <p>You are welcome to visit and see our facilities for yourself. Please call ahead.</p>
+    </div>
+    <div class="locations">
+      <article class="location">
+        <div class="map"><iframe title="Map of Unit 1" src="https://maps.google.com/maps?q=Thethampatty+Road%2C+Vadugapatty%2C+Viralimalai%2C+Tamil+Nadu+621316&amp;z=14&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="info">
+          <span class="label">Unit 1</span>
+          <address>No. 307, Thethampatty Road, Vadugapatty Village,<br>Viralimalai 621 316, Pudukkottai District,<br>Tamil Nadu, India</address>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Thethampatty+Road%2C+Vadugapatty%2C+Viralimalai%2C+Tamil+Nadu+621316" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+        </div>
+      </article>
+      <article class="location">
+        <div class="map"><iframe title="Map of Unit 2" src="https://maps.google.com/maps?q=Kondamanayakkanpatti%2C+Viralimalai%2C+Tamil+Nadu+621316&amp;z=14&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="info">
+          <span class="label">Unit 2</span>
+          <address>No. 327, Kondamanayakkanpatti, Vadugapatty Village,<br>Viralimalai 621 316, Pudukkottai District,<br>Tamil Nadu, India</address>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kondamanayakkanpatti%2C+Viralimalai%2C+Tamil+Nadu+621316" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/sew-logo.png" alt="SEW logo" width="92" height="43">
+        <p>Precision machining of valve and heavy-engineering components in Viralimalai, Tamil Nadu, since 2012.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="capabilities.html">Capabilities</a></li>
+          <li><a href="machines.html">Machines</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Talk to us</h4>
+        <ul>
+          <li><a href="tel:+919600925056">+91 96009 25056</a></li>
+          <li><a href="mailto:saisuryasu20@gmail.com">saisuryasu20@gmail.com</a></li>
+          <li>Mon–Fri 8 AM–8 PM</li>
+          <li>Sat 9 AM–7 PM · Sun 9 AM–5 PM</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our units</h4>
+        <address>
+          <span><strong style="color:#e3e2de">Unit 1</strong><br>No. 307, Thethampatty Road, Vadugapatty Village, Viralimalai 621 316</span>
+          <span><strong style="color:#e3e2de">Unit 2</strong><br>No. 327, Kondamanayakkanpatti, Vadugapatty Village, Viralimalai 621 316</span>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Surya Engineering Works</span>
+      <span>ISO 9001:2015 · TÜV India</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
